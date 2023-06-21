@@ -42,7 +42,7 @@ Certifique-se de ter as seguintes ferramentas e/ou técnologias instaladas em su
 4. Abra seu navegador e acesse a URL para visualizar a aplicação.
 > https://localhost:suaPorta
 
-![image](https://github.com/MayconLSilva/CustomerControl/assets/24304710/40c4cfeb-ccc3-4b4c-a632-d5f30c8a98e4)
+![image](https://github.com/MayconLSilva/CustomerControl/assets/24304710/b5dae1b4-f707-4cbe-acfd-55bc827f619b)
 5. No arquivo appsettings.json do seu projeto, comente a linha de conexão do container e configure a linha de conexão para o seu banco de dados.
 OBS: É necessário ter o PostgreSQL instalado seja ele container ou banco de dados padrão instalado em sua máquina.
 ![image](https://github.com/MayconLSilva/CustomerControl/assets/24304710/89c029ca-e1d9-448d-97ae-6827227ef8af)
