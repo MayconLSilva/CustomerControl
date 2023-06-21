@@ -1,13 +1,13 @@
 # Customer Control
 
 API Para cadastro de cliente e seus respectivos e-mails e contatos rodando em um simples container. Construido para fins de testes e práticas de algumas técnologias.
-## Técnologias utilizadas:
+## 🛠️ Técnologias utilizadas:
 * Net.7.0
 * PostgreSQL
 * pgAdmin 4
 * Docker
 
-## Pré-requisitos
+## 🛠️ Pré-requisitos
 Certifique-se de ter as seguintes ferramentas e/ou técnologias instaladas em sua máquina:
 * [Docker Desktop](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?_gl=1*msh36l*_ga*MTQ0Mzc3NjU2Ny4xNjI1MzMzMjE5*_ga_XJWPQMJYHQ*MTY4NzM2NTc2Ni43LjEuMTY4NzM2NTc2Ni42MC4wLjA.)
 * [.NET 7 SDK](https://download.visualstudio.microsoft.com/download/pr/2ab1aa68-3e14-401a-b106-833d66fa992b/060457e640f4095acf4723c4593314b6/dotnet-sdk-7.0.304-win-x64.exe)
@@ -20,7 +20,7 @@ Certifique-se de ter as seguintes ferramentas e/ou técnologias instaladas em su
 * NuGet.CommandLine
 * Swashbuckle.AspNetCore
 
-## Como executar o projeto localmente
+## ▶️ Como executar o projeto localmente
 1. Clone este repositório para sua máquina local:
 > https://github.com/MayconLSilva/CustomerControl.git
 2. Navegue até o diretório do projeto:
@@ -43,7 +43,7 @@ OBS: É necessário ter o PostgreSQL instalado seja ele container ou banco de da
 
 > dotnet ef database update
 
-## Como executar o projeto tudo via container
+## ▶️ Como executar o projeto tudo via container
 1. Deixe a linha de conexão do container descomentada e comente a conexão local.
 ![image](https://github.com/MayconLSilva/CustomerControl/assets/24304710/73e23a4d-5a21-477c-b659-49d523f2d335)
 2. No seu Visual Studio no menu: "Ferramentas > Linha de Comando > Prompt de Comando do Desenvolvedor" digite os seguintes comandos.
