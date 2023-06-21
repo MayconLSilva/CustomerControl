@@ -1,11 +1,23 @@
 # Customer Control
 
 API Para cadastro de cliente e seus respectivos e-mails e contatos rodando em um simples container. Construido para fins de testes e práticas de algumas técnologias.
+
+[![GitHub tag](https://img.shields.io/github/tag/gotbahn/browsers-support-badges.svg)](https://github.com/MayconLSilva/CustomerControl)
+[![Travis](https://img.shields.io/travis/gotbahn/browsers-support-badges.svg)](https://github.com/MayconLSilva/CustomerControl)
+<a href="https://github.com/MayconLSilva/CustomerControl">
+    <img src="https://img.shields.io/github/issues-pr/FN-FAL113/github-readme-steam-status"/> 
+</a>
+![license](https://img.shields.io/github/license/raquellee/professional_readme_generator)<br />
 ## 🛠️ Técnologias utilizadas:
 * Net.7.0
 * PostgreSQL
 * pgAdmin 4
 * Docker
+
+![Lang](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![FyL](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+![DB](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=PostgreSQL&logoColor=white)
+![FyL](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ## 🛠️ Pré-requisitos
 Certifique-se de ter as seguintes ferramentas e/ou técnologias instaladas em sua máquina:
