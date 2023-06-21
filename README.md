@@ -1,6 +1,6 @@
 # Customer Control
 
-API Para cadastro de cliente e seus respectivos e-mails e contatos. Construido para fins de testes e práticas de algumas técnologias.
+API Para cadastro de cliente e seus respectivos e-mails e contatos rodando em um simples container. Construido para fins de testes e práticas de algumas técnologias.
 ## Técnologias utilizadas:
 * Net.7.0
 * PostgreSQL
@@ -68,3 +68,6 @@ https://github.com/MayconLSilva/CustomerControl/blob/dev/scriptsPostgres/tabelaC
 > http://localhost:8080/swagger/index.html
 
 ![image](https://github.com/MayconLSilva/CustomerControl/assets/24304710/598d0587-133b-41eb-b245-0e3285a7075c)
+
+## Contribuição:
+Contribuições são bem-vindas! Se você encontrou um BUG, melhoria, tem alguma ideia para incluir no projeto ou deseja adicionar novos recursos, fique a vontade para abrir uma issue ou enviar um pull request.
