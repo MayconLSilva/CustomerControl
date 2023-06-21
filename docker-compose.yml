@@ -1,0 +1,40 @@
+version: '3.9'
+
+services:
+  apicustomercontrol:
+    container_name: apicustomercontrol
+    image: ${DOCKER_REGISTRY-}apicustomercontrol
+    build:
+      context: .
+      dockerfile: APICustomerControl/Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      ConnectionStrings__DefaultConnection: "Host=db;Database=customercontrol;Username=postgres;Password=M12345"
+    depends_on:
+      - db
+      - pgadminContainer
+  
+  pgadminContainer:
+    container_name: pgadminContainer
+    image: dpage/pgadmin4:latest
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "admin@admin.com"
+      PGADMIN_DEFAULT_PASSWORD: "admin123"
+    ports:
+      - "16543:80"
+
+  db:
+    container_name: db
+    image: postgres:12
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: M12345
+      POSTGRES_USER: postgres
+      POSTGRES_DB: customercontrol
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata: {}
