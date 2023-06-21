@@ -56,11 +56,11 @@ OBS: É necessário ter o PostgreSQL instalado seja ele container ou banco de da
 > Utilize o E-mail: admin@admin.com e Senha: admin123
 4. Após acessar o pgAdmin verifique se banco e tabelas estão criadas, caso contrário:
 > Criar Banco
-
+https://github.com/MayconLSilva/CustomerControl/blob/dev/scriptsPostgres/bdCustomer.sql
 > Criar tabela customer
-
+https://github.com/MayconLSilva/CustomerControl/blob/dev/scriptsPostgres/tabelaCustomer.sql
 > Criar tabela customer e-mail
-
+https://github.com/MayconLSilva/CustomerControl/blob/dev/scriptsPostgres/tabelaCustomerEmail.sql
 5. Abra seu navegador e digite o seguinte endereço:
 > http://localhost:8080/swagger/index.html
 
