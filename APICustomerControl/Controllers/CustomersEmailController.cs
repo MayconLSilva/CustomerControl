@@ -33,7 +33,6 @@ namespace APICustomerControl.Controllers
 
             };
 
-
             var inserirObjetos = _context.CustomersEmail.Add(customerEmail);
             await _context.SaveChangesAsync();
 
