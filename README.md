@@ -55,7 +55,7 @@ OBS: É necessário ter o PostgreSQL instalado seja ele container ou banco de da
 
 > dotnet ef database update
 
-## ▶️ Como executar o projeto tudo via container
+## ▶️ Como executar o projeto completo via container
 1. Deixe a linha de conexão do container descomentada e comente a conexão local.
 ![image](https://github.com/MayconLSilva/CustomerControl/assets/24304710/73e23a4d-5a21-477c-b659-49d523f2d335)
 2. No seu Visual Studio no menu: "Ferramentas > Linha de Comando > Prompt de Comando do Desenvolvedor" digite os seguintes comandos.
