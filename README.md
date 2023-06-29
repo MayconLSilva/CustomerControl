@@ -7,7 +7,7 @@ API Para cadastro de cliente e seus respectivos e-mails e contatos rodando em um
 <a href="https://github.com/MayconLSilva/CustomerControl">
     <img src="https://img.shields.io/github/issues-pr/FN-FAL113/github-readme-steam-status"/> 
 </a>
-![license](https://img.shields.io/github/license/raquellee/professional_readme_generator)<br />
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ## 🛠️ Técnologias utilizadas:
 * Net.7.0
 * PostgreSQL
